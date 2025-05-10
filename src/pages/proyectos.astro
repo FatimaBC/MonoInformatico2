@@ -1,0 +1,201 @@
+---
+import Navbar from '../components/Navbar';
+import Content from '../components/Content';
+import "../styles/global.css";
+---
+
+<div class="relative min-h-screen w-full overflow-hidden">
+  <Content client:load />
+  <div class="relative z-10">
+    <Navbar client:load />
+    <div class="container mx-auto px-4 py-8 mt-16">
+      <h1 class="text-4xl md:text-5xl font-bold text-center mb-12 gradient-text">Nuestros Proyectos</h1>
+      <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 gap-8">
+          <!-- Proyecto 1: Mudanzas Internacionales App -->
+          <div class="bg-black/40 backdrop-blur-md rounded-xl p-8 text-white border border-white/10 hover:border-blue-400/50 transition-colors">
+            <h3 class="text-2xl font-bold mb-4 text-blue-400">Mudanzas Internacionales App</h3>
+            <p class="text-gray-200 mb-6 text-lg leading-relaxed">
+              La aplicación busca empoderar al usuario, brindándole las herramientas necesarias para analizar sus prioridades (como oportunidades laborales, calidad de vida, costo de vida, sistema de salud, cultura, idioma, clima, etc.) y compararlas con las características de diversos países, facilitando así una decisión más informada y alineada con sus objetivos de vida.
+            </p>
+            
+            <div class="mb-6">
+              <h4 class="text-xl font-semibold mb-3 text-blue-300">Funcionalidades Principales:</h4>
+              <ul class="space-y-2">
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Explorar opciones: Descubrir países que quizás no habían considerado previamente.</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Comparar destinos: Evaluar diferentes países en función de criterios específicos.</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Visualizar información: Presentar datos complejos de manera clara y accesible.</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Personalizar la búsqueda: Filtrar y priorizar países según sus intereses y prioridades.</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Reducir la incertidumbre: Proporcionar información objetiva para fundamentar la decisión.</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Simplificar el proceso: Ofrecer una plataforma centralizada para la investigación inicial.</p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mb-6">
+              <h4 class="text-xl font-semibold mb-3 text-blue-300">Módulos Incluidos:</h4>
+              <ul class="space-y-2">
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Calculadora de Costo de Vida: Permitir a los usuarios ingresar sus ingresos y gastos para estimar el costo de vida en diferentes países.</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Convertidor de Moneda: Convertir fácilmente monedas para comparar precios.</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Traductor de Idiomas: Integración con servicios de traducción para facilitar la comunicación.</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Mapas Interactivos: Visualización de datos geográficos, como densidad de población, clima y ubicación de ciudades importantes.</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Información de Visados: Información actualizada de los visados necesarios para cada país, y los requisitos para poder obtenerlos.</p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-sm">Desarrollo Multiplataforma</span>
+              <span class="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-sm">Base de Datos</span>
+              <span class="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-sm">Diseño UX/UI</span>
+              <span class="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-sm">Implementación</span>
+              <span class="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-sm">Control de Calidad</span>
+            </div>
+          </div>
+
+          <!-- Proyecto 2: NeuroDiversoApp -->
+          <div class="bg-black/40 backdrop-blur-md rounded-xl p-8 text-white border border-white/10 hover:border-blue-400/50 transition-colors">
+            <h3 class="text-2xl font-bold mb-4 text-blue-400">NeuroDiversoApp</h3>
+            <p class="text-gray-200 mb-6 text-lg leading-relaxed">
+              La aplicación tipo foro para personas neurodivergentes y con trastornos psiquiátricos es una plataforma digital diseñada específicamente para crear una comunidad en línea segura, inclusiva y de apoyo para individuos que experimentan diferencias neurológicas (como autismo, TDAH, dislexia, etc.) y/o condiciones de salud mental (como ansiedad, depresión, trastorno bipolar, esquizofrenia, etc.).
+            </p>
+
+            <div class="mb-6">
+              <h4 class="text-xl font-semibold mb-3 text-blue-300">Objetivos Principales:</h4>
+              <ul class="space-y-2">
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Fomentar la conexión y el apoyo mutuo: Proporcionar un espacio donde los usuarios puedan interactuar, compartir experiencias, ofrecer consejos y sentirse comprendidos.</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Combatir el aislamiento y el estigma: Crear una comunidad donde los usuarios se sientan aceptados, validados y menos solos en sus experiencias.</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Facilitar el intercambio de información y recursos: Permitir a los usuarios compartir estrategias de afrontamiento, recursos útiles y recomendaciones.</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Ofrecer un entorno seguro y moderado: Implementar mecanismos de moderación para asegurar un espacio respetuoso y libre de discriminación.</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Promover la autoayuda y el empoderamiento: Brindar un espacio para compartir logros y estrategias de autocuidado.</p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mb-6">
+              <h4 class="text-xl font-semibold mb-3 text-blue-300">Características:</h4>
+              <ul class="space-y-2">
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Foros de discusión organizados por temas específicos</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Grupos privados para comunidades más pequeñas</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Mensajería directa entre usuarios</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Funciones de moderación avanzadas</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Soporte para anonimato y seudónimos</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Herramientas de afrontamiento personalizables</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Ejercicios guiados de mindfulness y meditación</p>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-400 mt-1">•</span>
+                  <p class="text-gray-200">Interfaz personalizable según necesidades individuales</p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-sm">Desarrollo Multiplataforma</span>
+              <span class="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-sm">Base de Datos</span>
+              <span class="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-sm">Diseño UX/UI</span>
+              <span class="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-sm">Implementación</span>
+              <span class="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-sm">Control de Calidad</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .gradient-text {
+    background: linear-gradient(45deg, #3b82f6, #60a5fa);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+</style>
+
+<script>
+  function updateBackground() {
+    const container = document.getElementById('background-container');
+    const savedBackground = localStorage.getItem('selectedBackground');
+    
+    if (container && savedBackground) {
+      const backgroundDiv = document.createElement('div');
+      backgroundDiv.innerHTML = savedBackground;
+      const backgroundElement = backgroundDiv.firstElementChild;
+      
+      if (backgroundElement) {
+        backgroundElement.classList.add('fixed', 'inset-0', '-z-10');
+        container.innerHTML = backgroundElement.outerHTML;
+      }
+    }
+  }
+
+  updateBackground();
+  window.addEventListener('backgroundChanged', updateBackground);
+</script> 

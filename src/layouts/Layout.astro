@@ -1,0 +1,32 @@
+---
+import NavBar from "../components/NavBar.astro"
+import Footer from "../components/Footer.astro"
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Backgrounds Hub</title>
+	</head>
+	<body>
+		<NavBar />
+		<slot />
+		<Footer />
+	</body>
+
+</html>
+
+<style>
+	html,
+	body {
+		padding: 5px;
+		margin: 0;
+		width: 100%;
+		min-height: 100vh;
+		position: relative;
+	}
+</style>
